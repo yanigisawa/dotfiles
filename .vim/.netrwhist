@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/jalexander/src/blog/blog'
+let g:netrw_dirhist_2='/Users/jalexander/src/blog'
+let g:netrw_dirhist_3='/Users/jalexander/src/coastal_infrastructure/lib/coastal_infrastructure'
+let g:netrw_dirhist_4='/Users/jalexander/.aws'
