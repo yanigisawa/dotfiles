@@ -1,0 +1,14 @@
+[user]
+	name = James Alexander
+	email = jalexander@leafsoftwaresolutions.com
+[core]
+	excludesfile = /Users/jalexander/.gitignore_global
+	editor = /usr/bin/vim
+[difftool "sourcetree"]
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = matching
