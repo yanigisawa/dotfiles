@@ -1,29 +1,29 @@
-execute pathogen#infect()
+" execute pathogen#infect()
 
 set nocompatible
 filetype off
 
 " ### Setting Up Vundle
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" call vundle#rc()
 
 " This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
 " 'user/repository' format
-Plugin 'gmarik/vundle'
-
-" We could also add repositories with a ".git" extension
-Plugin 'scrooloose/nerdtree.git'
-
-" To get plugins from Vim Scripts, you can reference the plugin
-" by name as it appears on the site
-Plugin 'Buffergator'
-
-" Track the engine.
-Plugin 'SirVer/ultisnips'
-
-" Snippets are separated from the engine. Add this if you want them:
-Plugin 'honza/vim-snippets'
+" Plugin 'gmarik/vundle'
+" 
+" " We could also add repositories with a ".git" extension
+" Plugin 'scrooloose/nerdtree.git'
+" 
+" " To get plugins from Vim Scripts, you can reference the plugin
+" " by name as it appears on the site
+" Plugin 'Buffergator'
+" 
+" " Track the engine.
+" Plugin 'SirVer/ultisnips'
+" 
+" " Snippets are separated from the engine. Add this if you want them:
+" Plugin 'honza/vim-snippets'
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
