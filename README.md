@@ -6,7 +6,7 @@ The idea was taken from [this blog article](https://developer.atlassian.com/blog
 To initialize a new machine with the existing configs, use the following script:
 
 ```
-  git clone --bare https://bitbucket.org/yanigisawa/dotfiles.git $HOME/.cfg
+  git clone --bare https://github.com/yanigisawa/dotfiles.git $HOME/.cfg
   function config {
      /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
   }
